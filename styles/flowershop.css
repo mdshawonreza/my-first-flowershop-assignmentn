@@ -14,19 +14,20 @@ font-weight: 700;
 background-color: #E55473;
 padding:12px 15px;
 border: none;
+border-radius: 5px;
 }
 
-/* this is header style */
+/* this is header styles */
 .header-container{
     display: flex;
     justify-content:  center ; 
     align-items: end;
     background-color: rgba(229, 84, 115, 0.10);
     background-size:contain;
-    gap:15px;
+    gap:12px;
 }
 .header-info{
-    padding: 125px 130px 75px 130px;
+    padding: 125px 130px 55px 130px;
     text-align: left;
 }
 .header-info-head{
@@ -44,4 +45,109 @@ padding: 25px 0px;
 .header-img{
     padding-right: 140px;
     padding-top: 45px;
+}
+/* this is main section 1 styles */
+.s-head-title{
+    color: #272727;
+text-align: center;
+font-size: 26px;
+font-weight: 800px;
+margin-top: 100px;
+}
+.s-head-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+padding: 25px 0px;
+text-align: center;
+}
+.tree-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.tree-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+/* this is main section 2 styles */
+
+.section-2-menu-info{
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 130px;
+    border-radius: 5px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 40px 60px;
+}
+.section-2-menu-info h4{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.section-2-menu{
+    text-align: center;
+}
+
+/* this is main section 3 styles */
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 70px 130px;
+}
+.section-3-info{
+    text-align: center;
+    padding-left: 70px;
+}
+.section-3-img{
+    padding: 0px 160px 0px 50px;
+}
+.section-3-info h2{
+    color: #272727;
+    font-size: 26px;
+    font-weight: 800px;
+}
+#section-3-span{
+    color: #E55473;
+}
+.section-3-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+padding: 20px 0px;
+}
+
+/* this is footer styles */
+footer{
+    text-align: center;
+    background-color:#111010;
+    padding: 85px 390px;
+}
+.footer-head{
+    color: #FFFFFF;
+    font-size: 29px;
+    font-weight: 800;
+    
+}
+.footer-head span{
+    color: #E55473;
+    
+}
+.footer-p1{
+    padding: 20px 0px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.footer-p2{
+color: rgba(255, 255, 255, 0.40);
+font-size: 12px;
+font-weight: 400;
 }
