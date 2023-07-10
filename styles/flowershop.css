@@ -74,12 +74,12 @@ text-align: center;
     padding: 100px 20px 0px 20px;
 }
 .tree-2{
-    background-color: rgba(167, 33, 98, 0.15);
+    background: rgba(5, 151, 160, 0.15);
     border-radius: 400px 400px 0px 0px;
     padding: 100px 10px 30px 10px;
 }
 .tree-3{
-    background-color: rgba(167, 33, 98, 0.15);
+    background: rgba(71, 125, 17, 0.15);
     border-radius: 400px 400px 0px 0px;
     padding: 80px 17px 0px 17px;
     margin-right: 4px;
