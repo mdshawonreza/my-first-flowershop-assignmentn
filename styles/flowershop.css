@@ -59,24 +59,44 @@ margin-top: 100px;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
-padding: 25px 0px;
+padding: 25px;
 text-align: center;
 }
 .tree-container{
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:space-around;
+    align-items: end;
+    margin: 0px 63px 0px;
 }
 .tree-1{
     background-color: rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 400px 400px 0px 0px;
+    padding: 100px 20px 0px 20px;
+}
+.tree-2{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 400px 400px 0px 0px;
+    padding: 100px 10px 30px 10px;
+}
+.tree-3{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 400px 400px 0px 0px;
+    padding: 80px 17px 0px 17px;
+    margin-right: 4px;
+}
+.tree-container h6{
+    text-align: center;
+    color: #272727;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
 }
 /* this is main section 2 styles */
 
 .section-2-menu-info{
     display: flex;
     justify-content: space-around;
-    margin: 110px 130px;
+    margin: 80px  130px 110px;
     border-radius: 5px;
     background: rgba(39, 39, 39, 0.05);
     padding: 40px 60px;
@@ -122,7 +142,28 @@ font-weight: 400;
 line-height: 24px;
 padding: 20px 0px;
 }
+/* this main section 4 styles */
+.section-4-info{
+    text-align: center;
+    margin-top: 90px;
+}
+.section-4-info h2{
+    color: #272727;
+    font-size: 26px;
+    font-weight: 800px;
+}
+.section-4-info p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 380px 30px 380px;
+}
 
+.section-4-bg{
+    background-color: #E55473;
+    background-size: 200px 200px;
+}
 /* this is footer styles */
 footer{
     text-align: center;
